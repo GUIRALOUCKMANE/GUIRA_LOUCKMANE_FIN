@@ -1,0 +1,383 @@
+ @import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap');
+ .boby{
+   line-height: 1.5;
+   font-family: 'poppins',sans-serif;  
+ }
+ nav{
+     
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+nav img{
+    width: 150px;
+    
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    }
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li:after{
+    content: '';
+    width: 0%;
+    height: 2PX;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+    
+} 
+.bleue{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    padding: 12px 23px;
+}
+.verte{
+    /* background-color: forestgreen; */
+    padding: 12px 23px;
+    width: 15px;
+    height: 15px;
+}
+
+nav .fa{
+    display: none;
+    display: none;
+}
+ .premier{
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    min-height: 0vh;
+    width: 50%;
+    /* text-align: end; */
+    display: flex;
+    
+    /* background-position: center;
+    background-size: cover;
+    /* position:relative; */
+    margin-left: 250px;  
+}
+ 
+ .col-2 a{
+  display: inline-block;
+  text-decoration: none; 
+  padding: 10px 30px;
+  background-color: blue;  
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 25px;
+  transition: background 0.5s;
+ }
+ .col-2 a:hover{
+     background: #106e77;
+ }
+ 
+ .col-2{
+     flex-basis: 50%;
+     min-width: 300px;
+ }
+ .col-2 img{
+     width: 100%;
+     padding: 30px 0;
+     
+     
+ }
+ .col-2 h1{
+     font-size: 50px;
+     line-height: 60px;
+     margin: 25px 0;
+     
+ }
+ .p{
+  color: #555;  
+ }
+ .header-section{
+   background: radial-gradient(#fff, #eaf2fb);  
+ }
+.vere{
+  text-align: center;
+  color: blue; 
+  font-size: xx-large;
+}
+.sim{
+  font-size: x-large;  
+  text-align: center;
+}
+.p{
+    font-size: x-large;
+    width: 30px;
+}
+.verte{
+    font-size: x-large;
+}
+.des{
+    text-align: center;
+}
+.d1{
+    margin-left: 450px;
+    width: 600px;
+    height: 600px;
+}
+.lou{
+    width: 50px;
+    height: 50px;
+}
+.r{
+border: 1px solid;
+width:300px ;
+margin-left: 15px;
+
+}
+.b{
+    text-align: center;
+    color: blue;
+    
+}
+.web{
+    text-align: center;
+    font-size: xx-large;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-img-top{
+    width: 400px;
+    height: 350px;
+}
+.card-title{
+    color: darkgoldenrod;
+    font-size: x-large;
+    border: 1px solid violet; 
+    width: 115px;
+}
+.card-text{
+    font-size: larger;
+    
+}
+.mon{
+    text-align: center;
+    font-size: x-large;
+} 
+.monture{
+    display: flex;
+    justify-content: space-around;
+} 
+.vn{
+    width: 300px;
+    height: 300px;
+}
+.ti{
+    font-size: x-large;
+    color: darkorange;
+    border-radius: 50px;
+    
+} 
+.btn {
+    
+    background-color: coral;
+    border: 1px solid violet; 
+    width: 115px;
+}
+.ty{
+    font-size: x-large;
+    color: darkorange;
+    border-radius: 50px;
+    border: 1px solid violet; 
+    width: 80px;
+}
+.bbb{
+    background-color: #f44336;
+}
+
+
+.solei{
+    text-align: center;
+    background-color: greenyellow;
+} 
+.sol{
+    display: flex;
+}
+.im{
+    width: 250px;
+    height: 250px;
+    transition: transform 3s;
+}
+.px{
+    /* border: 3px solid violet;  */
+    width: 140px;
+    background-color: gold;
+    
+}
+.lu{
+    text-align: center;
+    background-color: brown;
+}
+.ach{
+    color: black;
+      border: 2px solid brown;  
+}
+.tes{
+    text-align: center;
+    font-size: x-large;
+}
+.ts{
+    display: flex;
+}
+/* style de la categorie */
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+    
+}
+.zonga{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+
+/* section des monture */
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.4s;
+    
+}
+.col-4 img{
+    width: 100%;
+    
+}
+.col-4:hover{
+    transform:translateY(-10px);
+}
+.sole{
+    text-align: center;
+}
+/* footer */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style:none ;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+ width: 25%;
+ padding: 0 15px;   
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    height: 2px;
+    background-color:#e91e63;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px; 
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,225,225,0.2 );
+    margin-right: 10px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#ffffff;
+    transition: all 0.5s ease;
+    
+    
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color:#ffffff;
+}
+/* formulaire */
+
+ 
+
+
+
+
+@media(max-width: 767px){
+  .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }  
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+        
+    }  
+  }
+
+
+
+

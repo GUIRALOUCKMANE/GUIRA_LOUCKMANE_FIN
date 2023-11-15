@@ -1,0 +1,57 @@
+ formulaire 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-color: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'montessreat' sans-serif;
+    height: 100vh; 
+}
+ .container{
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+    width: 768;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: 0 8px 24px rgba(0,32,63,45),0 8px 8px rgba(0,32,63,45);
+} 
+.form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.sign-up-container{
+    left: 0;
+    width: 50%;
+}
+form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+}
+*/ formulaire2 */
+.login-container{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+input{
+    background-color: aqua;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    
+}
