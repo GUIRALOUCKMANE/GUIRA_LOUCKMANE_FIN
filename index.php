@@ -42,9 +42,11 @@
         <div class="col-2">
         <video src="istockphoto-1320460276-640_adpp_is.mp4" autoplay loop muted></video>
       </div>
+      
   </header>
         </section>
       </Section>
+      <!-- <br><br><br> -->
       <section> 
       <br>
        
@@ -77,7 +79,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-         <p>5000 fcfa</p>
+         <p class="argent">5000 fcfa</p>
          
          
          </div>
@@ -92,7 +94,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-           <p>5000 fcfa</p>
+           <p class="argent">5000 fcfa</p>
            
            
            </div>
@@ -107,7 +109,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-             <p>5000 fcfa</p>
+             <p class="argent">5000 fcfa</p>
              
              
              </div>
@@ -122,7 +124,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-               <p>5000 fcfa</p>
+               <p class="argent">5000 fcfa</p>
                
                
                </div>
@@ -141,7 +143,7 @@
     
     
     
-    
+    <h1 class="sodre">les differentes types de verres</h1>
     
     
     <section class="zonga">
@@ -207,7 +209,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-         <p>5000 fcfa</p>
+         <p class="argent">5000 fcfa</p>
          
          
          </div>
@@ -222,7 +224,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-           <p>5000 fcfa</p>
+           <p class="argent">5000 fcfa</p>
            
            
            </div>
@@ -237,7 +239,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-             <p>5000 fcfa</p>
+             <p class="argent">5000 fcfa</p>
              
              
              </div>
@@ -252,7 +254,7 @@
          
          
          <i class ="fa fa-star-o"></i>
-               <p>5000 fcfa</p>
+               <p class="argent">5000 fcfa</p>
                
                
                </div>
@@ -280,7 +282,7 @@
         
         
         <i class ="fa fa-star-o"></i>
-        <p>5000 fcfa</p>
+        <p class="argent">5000 fcfa</p>
         
         
         </div>
@@ -295,7 +297,7 @@
         
         
         <i class ="fa fa-star-o"></i>
-          <p>5000 fcfa</p>
+          <p class="argent">5000 fcfa</p>
           
           
           </div>
@@ -310,7 +312,7 @@
         
         
         <i class ="fa fa-star-o"></i>
-            <p>5000 fcfa</p>
+            <p class="argent">5000 fcfa</p>
             
             
             </div>
@@ -325,7 +327,7 @@
         
         
         <i class ="fa fa-star-o"></i>
-              <p>5000 fcfa</p>
+              <p class="argent">5000 fcfa</p>
               
               
               </div>

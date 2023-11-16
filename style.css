@@ -75,7 +75,8 @@ nav .fa{
     /* background-position: center;
     background-size: cover;
     /* position:relative; */
-    margin-left: 250px;  
+    margin-left: 250px;
+    margin-bottom: 100px;  
 }
  
  .col-2 a{
@@ -207,8 +208,8 @@ margin-left: 15px;
     border: 1px solid violet; 
     width: 80px;
 }
-.bbb{
-    background-color: #f44336;
+.ins{
+    background-color: cyan;
 }
 
 
@@ -287,6 +288,15 @@ margin-left: 15px;
     max-width: 1170px;
     
     margin: auto;
+    margin-bottom: 50px;
+}
+.sodre{
+    text-align: center;
+    font-size: x-large;
+}
+.argent{
+    background-color: #f44336;
+    width: 70px;
 }
 .row{
     display: flex;

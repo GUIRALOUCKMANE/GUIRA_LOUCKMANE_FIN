@@ -4,11 +4,11 @@
         <i class=" fa fa-times"onclick="hideMenu()"></i>
         
             <ul>
-            <li> <a href="contact.php">ACCUEIL</a></li>
-                <li> <a href="produit.php">PRODUITS</a></li>
+            <li> <a href="accueil.php">ACCUEIL</a></li>
+                <li> <a href="accueil.php">PRODUITS</a></li>
                 <li> <a href="apropos.php">APROPOS</a></li>
                 <li> <a href="connexion.php" class="mmm">CONNEXION</a></li>
-                <li> <a href="deconnexion.php" class="bbb">DECONNEXION</a></li>                
+                <li> <a href="inscription.php" class="ins">INSCRIPTION</a></li>                
                 
                 <li> <a href="contact.php" class="verte">CONTACT</a></li>
                 <!-- <li> <a href="" class="bleue">ACHATER EN LIGNE</a></li> -->
