@@ -1,0 +1,23 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.inscription
+{
+    display: grid;
+    padding: 2em;
+    
+}
+
+form input, label
+{
+    margin: 0.2em;
+    padding: 0.2em;
+    
+}
+.mn{
+    text-align: center;
+}

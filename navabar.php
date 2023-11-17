@@ -5,10 +5,11 @@
         
             <ul>
             <li> <a href="accueil.php">ACCUEIL</a></li>
-                <li> <a href="accueil.php">PRODUITS</a></li>
+                <li> <a href="PRODUITS.php">PRODUITS</a></li>
                 <li> <a href="apropos.php">APROPOS</a></li>
                 <li> <a href="connexion.php" class="mmm">CONNEXION</a></li>
-                <li> <a href="inscription.php" class="ins">INSCRIPTION</a></li>                
+                <li> <a href="inscription.php" class="ins">INSCRIPTION</a></li>
+                <li> <a href="admin.php">ADMIN</a></li>                 
                 
                 <li> <a href="contact.php" class="verte">CONTACT</a></li>
                 <!-- <li> <a href="" class="bleue">ACHATER EN LIGNE</a></li> -->

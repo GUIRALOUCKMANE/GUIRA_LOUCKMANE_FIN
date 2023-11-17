@@ -27,7 +27,7 @@
     
     </div>
     <div class="footer-col">
-      <h4>LA VENTE EN LIGNE</h4>
+      <h4>BOUTIQUE EN LIGNE DES VERRES</h4>
       <ul>
       <li><a href="#">LIVRAISON</a></li>
       <li><a href="#">COMMENTAIRE</a></li>

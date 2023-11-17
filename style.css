@@ -79,6 +79,7 @@ nav .fa{
     margin-bottom: 100px;  
 }
  
+ 
  .col-2 a{
   display: inline-block;
   text-decoration: none; 
@@ -368,8 +369,15 @@ ul{
     color: #24262b;
     background-color:#ffffff;
 }
-/* formulaire */
 
+
+/* formulaire */
+.inscription
+{
+    display: grid;
+    padding: 2em;
+    
+}
  
 
 
@@ -385,7 +393,15 @@ ul{
     .footer-col{
         width: 100%;
         
-    }  
+    }
+    
+  }
+  @media(max-width: 574px){
+    .zonga{
+        flex-direction: column; 
+        
+    }
+    
   }
 
 
