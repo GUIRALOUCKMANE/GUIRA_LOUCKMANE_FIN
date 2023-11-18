@@ -15,26 +15,25 @@ try{
     //echo "la connexion a ete bien etablie";
 }
 catch(PDOException $e){
-    echo "la connexion a echoué:" .$e->getMessage();
+    echo "la connexion a echoué:" . $e->getMessage();
     
 }
 if(isset($_POST['envoyer']))
 {
     $nom = $_POST['nom'];
-    $prenom= $_POST['prenom'];
+    $prenom = $_POST['prenom'];
     $email = $_POST['email'];
     $passe = $_POST['passe'];
     $conacte = $_POST['contacte'];
     
-    $sql = ("INSERT INTO `inscris` (`nom`, `prenom`,`email`,`passe`,`contacte`,) VALUES (':nom' ,':prenom' ,':email' ,':passe' ,':contacte' ,)" );
+    $sql = ("INSERT INTO `inscris`(`nom`, `prenom`,`email`,`passe`,`contacte`,) VALUES (':nom' ,':prenom' ,':email' ,':passe' ,':contacte' ,)" );
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':nom', $nom);
     $stmt->bindParam(':prenom', $prenom);
     $stmt->bindParam(':email', $email);
     $stmt->bindParam(':passe', $passe);
     $stmt->bindParam(':contacte', $conacte);
-    
-    $stmt->execute();
+    PDOStatement::execute(); 
     //pour changer deux ou plus dans une seul fois clique sur
     
     
@@ -80,15 +79,15 @@ if(isset($_POST['envoyer']))
      <body>
   <h1 class="mn">envoyer les données vers Mysql database</h1>
 <form class="inscription" action="" method="post">
-<label for="">Nom:</label>
+<label for="">Nom :</label>
 <input type="text" name="nom">
-<label for="">Prenom:</label>
+<label for="">Prenom :</label>
 <input type="text" name="prenom">
-<label for="">Email:</label>
+<label for="">Email :</label>
 <input type="text" name="email">
-<label for="">password:</label>
+<label for="">password :</label>
 <input type="text" name="passe">
-<label for="">contact:</label>
+<label for="">contact :</label>
 <input type="text" name="contacte">
 
 

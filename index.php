@@ -159,7 +159,7 @@
             il permet de corriger tous les defauts visuels
              dites simples telque la myopie, l hypermetropie
              l astigmatisme.</p>
-          <a href="service.html" class="btn btn-primary">VOIR PLUS</a>
+          <a href="produit2.php" class="btn btn-primary">VOIR PLUS</a>
         </div> 
        </div>
     

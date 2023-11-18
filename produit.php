@@ -25,7 +25,7 @@
   <!-- <marquee behavior=" " direction="" class="vere">BIENVENUE SUR MON SITE WEB DES VERRES</marquee> -->
   
   <?php
-     include("nav.php");
+     include("navabar.php");
      ?>
         </section> 
         
@@ -66,7 +66,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                   <p>5000 fcfa</p>
+                   <p class="argent">5000 fcfa</p>
                    
                    
                    </div>
@@ -81,7 +81,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                     <p>5000 fcfa</p>
+                     <p class="argent">5000 fcfa</p>
                      
                      
                      </div>
@@ -96,7 +96,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                       <p>5000 fcfa</p>
+                       <p class="argent">5000 fcfa</p>
                        
                        
                        </div>
@@ -112,7 +112,7 @@
                    
                    <i class ="fa fa-star-o"></i>
                    
-                         <p>5000 fcfa</p>
+                         <p class="argent">5000 fcfa</p>
                          
                          
                          </div>
@@ -150,7 +150,7 @@
                
                
                <i class ="fa fa-star-o"></i>
-               <p>5000 fcfa</p>
+               <p class="argent">5000 fcfa</p>
                
                
                </div>
@@ -165,7 +165,7 @@
                
                
                <i class ="fa fa-star-o"></i>
-                 <p>5000 fcfa</p>
+                 <p class="argent">5000 fcfa</p>
                  
                  
                  </div>
@@ -180,7 +180,7 @@
                
                
                <i class ="fa fa-star-o"></i>
-                   <p>5000 fcfa</p>
+                   <p class="argent">5000 fcfa</p>
                    
                    
                    </div>
@@ -195,7 +195,7 @@
                
                
                <i class ="fa fa-star-o"></i>
-                     <p>5000 fcfa</p>
+                     <p class="argent">5000 fcfa</p>
                      
                      
                      </div>
@@ -222,7 +222,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                   <p>5000 fcfa</p>
+                   <p class="argent">5000 fcfa</p>
                    
                    
                    </div>
@@ -237,7 +237,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                     <p>5000 fcfa</p>
+                     <p class="argent">5000 fcfa</p>
                      
                      
                      </div>
@@ -252,7 +252,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                       <p>5000 fcfa</p>
+                       <p class=""argent>5000 fcfa</p>
                        
                        
                        </div>
@@ -267,7 +267,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                         <p>5000 fcfa</p>
+                         <p class="argent">5000 fcfa</p>
                          
                          
                          </div>
@@ -295,7 +295,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                   <p>5000 fcfa</p>
+                   <p class="argent">5000 fcfa</p>
                    
                    
                    </div>
@@ -310,7 +310,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                     <p>5000 fcfa</p>
+                     <p class="argent">5000 fcfa</p>
                      
                      
                      </div>
@@ -325,7 +325,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                       <p>5000 fcfa</p>
+                       <p class="argent">5000 fcfa</p>
                        
                        
                        </div>
@@ -340,7 +340,7 @@
                    
                    
                    <i class ="fa fa-star-o"></i>
-                         <p>5000 fcfa</p>
+                         <p class="argent">5000 fcfa</p>
                          
                          
                          </div>
@@ -351,8 +351,80 @@
                   </div>
                   
                   </section>
-            
-            
+                  <!-- BBBBBBB -->
+                  <section class="featured-products">
+                  <div class="container">
+                  <h2 class="sole">LUNETTE DES FEMMES INFLUENCEUSES</h2>
+                  <div class="row">
+                   <div class="col-4">
+                   <a href="insérer l'URL de destination ici"><img src="alibaba4.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+                   <!-- <img src="photogray4 (4).jpg" alt="produit 1"> -->
+                   <h3>LUNETTE DE LUXE</h3>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o"aria-hidden="true"></i>
+                   
+                   
+                   <i class ="fa fa-star-o"></i>
+                   <p class="argent">5000 fcfa</p>
+                   
+                   
+                   </div>
+                   <div class="col-4">
+                   <a href="insérer l'URL de destination ici"><img src="alibaba3.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+                     <!-- <img src="photogray4 (5).jpg" alt="produit 1"> -->
+                     <h3>LUNETTE DE LUXE</h3>
+                     <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <!-- <i class="fa fa-star"aria-hidden="true"></i> -->
+                   <i class="fa fa-star-half-o"aria-hidden="true"></i>
+                   
+                   
+                   <i class ="fa fa-star-o"></i>
+                     <p class="argent">5000 fcfa</p>
+                     
+                     
+                     </div>
+                     <div class="col-4">
+                     <a href="insérer l'URL de destination ici"><img src="alibab2.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+                       <!-- <img src="photogray4 (11).jpg" alt="produit 1"> -->
+                       <h3>LUNETTE DE LUXE</h3>
+                       <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o"aria-hidden="true"></i>
+                   
+                   
+                   <i class ="fa fa-star-o"></i>
+                       <p class="argent">5000 fcfa</p>
+                       
+                       
+                       </div>
+                       <div class="col-4">
+                       <a href="insérer l'URL de destination ici"><img src="alibaba1.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+                         <!-- <img src="photogray4 (10).jpg" alt="produit 1"> -->
+                         <h3>LUNETTE DE LUXE</h3>
+                         <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star"aria-hidden="true"></i>
+                   <i class="fa fa-star-half-o"aria-hidden="true"></i>
+                   
+                   
+                   <i class ="fa fa-star-o"></i>
+                         <p class="argent">5000 fcfa</p>
+                         
+                         
+                         </div>
+                  
+                  </div>
+                  
+                  
+                  </div>
+                  
+                  </section>
+
+      
             
                   <?php
      include("footer.php");
