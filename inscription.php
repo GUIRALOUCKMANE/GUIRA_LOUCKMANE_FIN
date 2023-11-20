@@ -1,42 +1,44 @@
 <?php
-
-
-
-//la conexion a la basse de donnee
-$servername="localhost";
-$username= "root";
-$password=""; //dans votre cas "" rien
-$dbname ="projet_fin";
-
-
-try{
-    $conn = new pdo("mysql:host=$servername;dbname=$dbname", $username,$password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    //echo "la connexion a ete bien etablie";
-}
-catch(PDOException $e){
-    echo "la connexion a echoué:" . $e->getMessage();
-    
-}
-if(isset($_POST['envoyer']))
+try
 {
-    $nom = $_POST['nom'];
-    $prenom = $_POST['prenom'];
-    $email = $_POST['email'];
-    $passe = $_POST['passe'];
-    $conacte = $_POST['contacte'];
+    $bdd=new PDO('mysql:host=localhost;dbname=projet_fin','root','');
+}
+catch(Exception $e)
+{
+    die("Erreur :" .$e->getMessage());
+}
+
+include("navabar.php");
+
+ @$nom=$_POST['nom'];
+ @$prenom=$_POST['prenom'];
+ @$email=$_POST['email'];
+ @$code=$_POST['code'];
+ @$submit=$_POST['submit'];
+ @$erreur="";
+ @$err="";
+
+ 
+
+if (isset($submit)) {
+
+   
     
-    $sql = ("INSERT INTO `inscris`(`nom`, `prenom`,`email`,`passe`,`contacte`,) VALUES (':nom' ,':prenom' ,':email' ,':passe' ,':contacte' ,)" );
-    $stmt = $conn->prepare($sql);
-    $stmt->bindParam(':nom', $nom);
-    $stmt->bindParam(':prenom', $prenom);
-    $stmt->bindParam(':email', $email);
-    $stmt->bindParam(':passe', $passe);
-    $stmt->bindParam(':contacte', $conacte);
-    PDOStatement::execute(); 
-    //pour changer deux ou plus dans une seul fois clique sur
-    
-    
+    if (empty($nom) || empty($prenom) || empty($email) || empty($code)) {
+
+        $erreur="Veuillez remplire tous les champs svp!";
+          
+    }
+    else{
+        $res=$bdd->query(" INSERT INTO inscris(nom, prenom, email, code) 
+                            VALUES ('$nom','$prenom','$email','$code')");
+        if ($res !== false) {
+            header('location:index.php');
+        }else{
+            $err="echec d'enregistrement!";
+        }
+
+    }
 }
 
 ?>
@@ -47,7 +49,7 @@ if(isset($_POST['envoyer']))
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="inscris.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,10 +58,35 @@ if(isset($_POST['envoyer']))
 <link rel="stylesheet" href="bootstrap.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="inscris.css">
+
 
 </head>
 <body>
 <Section class="header-section">
+    <div class="contenaire">
+        <button class="but"><a href="connexion.php">Se connecter</a></button>
+
+        <h1 class="envoi">Inscription</h1>
+        <form action="" method="POST">
+            <input type="text" name="nom"  placeholder="Entrez votre nom">
+            <input type="text" name="prenom" placeholder="Entrez votre prenom">
+            <input type="email" name="email" placeholder="Entrez votre Email">
+            <input type="password" name="code" placeholder="Entrez votre mot de passe">
+            <input type="submit" value="VALIDER" name="submit" class="submit">
+
+            <div><?php echo $err?></div>
+            <div style="color: red;     font-family:Arial, sans-serif;"><?php echo $erreur?></div>
+        </form>
+        <!-- <img src="image/img4.png" alt="" width="200px" >
+         -->
+    </div>
+    
+
+
+
+
+
 
 
 
@@ -73,28 +100,9 @@ if(isset($_POST['envoyer']))
 
   <!-- <marquee behavior=" " direction="" class="vere">BIENVENUE SUR MON SITE WEB DES VERRES</marquee> -->
   
-     <?php
-     include("navabar.php");
-     ?>
-     <body>
-  <h1 class="mn">envoyer les données vers Mysql database</h1>
-<form class="inscription" action="" method="post">
-<label for="">Nom :</label>
-<input type="text" name="nom">
-<label for="">Prenom :</label>
-<input type="text" name="prenom">
-<label for="">Email :</label>
-<input type="text" name="email">
-<label for="">password :</label>
-<input type="text" name="passe">
-<label for="">contact :</label>
-<input type="text" name="contacte">
-
-
-<input type="submit" value="envoyer" name="envoyer">
-
-
-</form>
+     
+    
+  
 
 
 

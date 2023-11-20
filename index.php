@@ -65,6 +65,7 @@
     <h1 class="mon">verres de luxes pour des femmes influenceuses</h1>
        
        <section class="featured-products">
+       
         <div class="container">
         
         <div class="row">
@@ -159,7 +160,7 @@
             il permet de corriger tous les defauts visuels
              dites simples telque la myopie, l hypermetropie
              l astigmatisme.</p>
-          <a href="produit2.php" class="btn btn-primary">VOIR PLUS</a>
+          <a href="produit.php" class="btn btn-primary">VOIR PLUS</a>
         </div> 
        </div>
     
@@ -172,7 +173,7 @@
         <div class="card-body">
           <h5 class="card-title">Notice</h5>
           <p class="card-text"> ces lentilles sont de moins en moins utitlisés.il permettent une vision de loin et de pres,grace a deux zones de correction séparees dans le verre.</p>.</p>
-          <a href="ABOUT" class="btn btn-primary">VOIR PLUS</a>
+          <a href="produit.php" class="btn btn-primary">VOIR PLUS</a>
         </div>
       </div>
       
@@ -184,7 +185,7 @@
         <div class="card-body">
           <h5 class="card-title">Text à lire</h5>
           <p class="card-text"> il sont capables de corriger plusieurs anomalies refractives et premettent ainsi une vision nette à differentes distance.celas est utile pour les patients presbytes </p>
-          <a href="CONTACT" class="btn btn-primary">VOIR PLUS</a>
+          <a href="produit.php" class="btn btn-primary">VOIR PLUS</a>
         </div>
       </div>
       

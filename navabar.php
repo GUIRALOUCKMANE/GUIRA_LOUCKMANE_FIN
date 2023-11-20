@@ -4,8 +4,8 @@
         <i class=" fa fa-times"onclick="hideMenu()"></i>
         
             <ul>
-            <li> <a href="accueil.php">ACCUEIL</a></li>
-                
+            
+            <li> <a href="acceuil.php">ACCEUIL</a></li>
                 <li> <a href="produit.php">PRODUIT</a></li>
                 <li> <a href="apropos.php">APROPOS</a></li>
                 <li> <a href="connexion.php" class="mmm">CONNEXION</a></li>
