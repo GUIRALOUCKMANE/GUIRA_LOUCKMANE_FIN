@@ -45,7 +45,7 @@ body{
     padding: 5px;
  }
  .contenaire > form .submit {
-    color: rgb(255, 255, 255);
+    color: aliceblue;
     background: rgb(255, 0, 0);
     width: 150px;
     border: 0;
@@ -61,7 +61,7 @@ body{
   }
  .but > a{
      text-decoration: none;
-     color: white;
+      color: rgb(255, 255, 255); 
      font-size: 15px;
      font-family: Arial, Helvetica, sans-serif;
      padding: -10px;
@@ -88,7 +88,7 @@ body{
     margin-bottom: -50px;
  }
  .but:hover {
-    background-color: #ffffff;
+    background-color: #33cd6e;
     border: none;
   }
  .envoi{

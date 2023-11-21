@@ -24,7 +24,7 @@ catch(Exception $e)
 
 if (isset($submit)) {
 
-   $add = 'utilisateur';
+   $add = 'administrateur';
     
     if ( empty($email) || empty($code)) {
 
@@ -39,7 +39,8 @@ if (isset($submit)) {
             if ($info_users ['code'] == $code AND $info_users['role'] == 'administrateur') {
                 header('location:dashboard.php');
             }
-            elseif (($info_users['code'] == $code AND $info_users['role'] == 'utilisateur') ){
+            
+            elseif (($info_users['code'] == $code AND $info_users['role'] == 'adminstateur') ){
             
             header('location:produit.php');
         } 

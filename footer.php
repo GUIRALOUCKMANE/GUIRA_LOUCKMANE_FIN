@@ -27,12 +27,12 @@
     
     </div>
     <div class="footer-col">
-      <h4>BOUTIQUE EN LIGNE DES VERRES</h4>
+      <h4>BOUTIQUE DE VENTE LIGNE DES LUNETTES</h4>
       <ul>
-      <li><a href="#">LIVRAISON</a></li>
-      <li><a href="#">COMMENTAIRE</a></li>
-      <li><a href="#">MERCIMMENT</a></li>
-      <li><a href="#">BONJOUR</a></li>
+      <li><a href="#">FOX BUSINESS GUIRA</a></li>
+      <li><a href="#">ENTREPRISE LEGAL</a></li>
+      <li><a href="#">BP166/BOBO-DSS</a></li>
+      <li><a href="#">CONTACTE 0022675288667/002265651566</a></li>
       
       </ul>
       

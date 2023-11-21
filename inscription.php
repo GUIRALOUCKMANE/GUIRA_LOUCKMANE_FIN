@@ -65,7 +65,7 @@ if (isset($submit)) {
 <body>
 <Section class="header-section">
     <div class="contenaire">
-        <button class="but"><a href="connexion.php">Se connecter</a></button>
+        <button class="but"><a href="connexion.php">S inscrit</a></button>
 
         <h1 class="envoi">Inscription</h1>
         <form action="" method="POST">
