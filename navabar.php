@@ -15,7 +15,16 @@
                 
                 <li> <a href="contact.php" class="verte">CONTACT</a></li>
                 <!-- <li> <a href="" class="bleue">ACHATER EN LIGNE</a></li> -->
-                <i class="fa-duotone fa-2x fa-cart-shopping"></i>
+            
+         <a href="commander.php" class="bookmark" date-toggle="">
+         <span class="fas fa-cart-arrow-down"></span>
+         </a>
+         
+         <!-- <h2 class="mb-1"><a href="">lunette-dign</a></h2>
+         <span class="adress">burkina</span> -->
+         
+         
+         </div>
                 </ul>
         </di>
         <i class="fa fa-bars" onclick="showMEnu"></i>

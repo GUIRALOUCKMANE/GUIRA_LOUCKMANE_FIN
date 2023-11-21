@@ -8,7 +8,7 @@ catch(Exception $e)
     die("Erreur :" .$e->getMessage());
 }
 
-include("navabar.php");
+
 
  @$nom=$_POST['nom'];
  @$prenom=$_POST['prenom'];
@@ -63,6 +63,9 @@ if (isset($submit)) {
 
 </head>
 <body>
+<?php
+     include("navabar.php");
+     ?>
 <Section class="header-section">
     <div class="contenaire">
         <button class="but"><a href="connexion.php">S inscrit</a></button>

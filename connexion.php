@@ -7,15 +7,13 @@ catch(Exception $e)
 {
     die("Erreur :" .$e->getMessage());
 }
-    
 
- include("navabar.php");
 
-//  @$nom=$_POST['nom'];
-//  @$prenom=$_POST['prenom'];
+
+ 
+ 
  @$email=$_POST['email'];
  @$code=$_POST['code'];
- 
  @$submit=$_POST['submit'];
  @$erreur="";
  @$err="";
@@ -24,7 +22,7 @@ catch(Exception $e)
 
 if (isset($submit)) {
 
-   $add = 'administrateur';
+   
     
     if ( empty($email) || empty($code)) {
 
@@ -32,28 +30,15 @@ if (isset($submit)) {
           
     }
     else{
-        
-        
-        $info_users=$bdd->query(" INSERT INTO inscris(email, code) VALUES ('$email','$code',)");
-        if ($info_users !== false) {
-            if ($info_users ['code'] == $code AND $info_users['role'] == 'administrateur') {
-                header('location:dashboard.php');
-            }
-            
-            elseif (($info_users['code'] == $code AND $info_users['role'] == 'adminstateur') ){
-            
-            header('location:produit.php');
-        } 
-            else{
+        $res=$bdd->query(" INSERT INTO inscris( email, code) 
+                            VALUES ('$email','$code')");
+        if ($res !== false) {
+            header('location:dashboard.php');
+        }else{
             $err="echec d'enregistrement!";
         }
 
     }
-    else{
-        $err="Email ou code incorrect!";
-    }
-}
-
 }
 
 ?>
@@ -78,11 +63,14 @@ if (isset($submit)) {
 
 </head>
 <body>
+<?php
+     include("navabar.php");
+     ?>
 <Section class="header-section">
     <div class="contenaire">
-        <button class="but"><a href="connexion.php">Se connecter</a></button>
+        <button class="but"><a href="connexion.php">Se connectez</a></button>
 
-        <h1 class="envoi"></h1>
+        <h1 class="envoi">connexion</h1>
         <form action="" method="POST">
             <!-- <input type="text" name="nom"  placeholder="Entrez votre nom">
             <input type="text" name="prenom" placeholder="Entrez votre prenom"> -->
@@ -128,43 +116,3 @@ if (isset($submit)) {
   
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

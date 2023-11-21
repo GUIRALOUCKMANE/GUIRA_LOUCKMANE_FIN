@@ -94,9 +94,9 @@
                    <i class ="fa fa-star-o"></i>
                      <p class="argent">5000 fcfa</p>
                      
-                     nnnnnnnnnnnnnnn
+                     
                      </div>
-                     <div class="listing-item-content">
+                      <!-- <div class="listing-item-content">
          <a href="*./pages/commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
@@ -104,9 +104,9 @@
          <h2 class="mb-1"><a href="">brand-design</a></h2>
          <span class="adress">burkina</span>
          
-         </div>
-         lllllllllllll
-         </div>
+         </div> 
+         
+         </div> -->
                      <div class="col-4">
                      <a href="insérer l'URL de destination ici"><img src="photogray4 (3).jpg" title="insérer le titre" alt="insérer la description ici"></a>
                        <!-- <img src="photogray4 (3).jpg" alt="produit 1"> -->

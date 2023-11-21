@@ -84,10 +84,10 @@
          <i class ="fa fa-star-o"></i>
          <!-- <p class="argent">5000 fcfa</p> -->
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          <!-- <h2 class="mb-1"><a href="">lunette-dign</a></h2>
          <span class="adress">burkina</span> -->
          
@@ -108,10 +108,10 @@
          
          <i class ="fa fa-star-o"></i>
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
            
            
@@ -129,10 +129,10 @@
          
          <i class ="fa fa-star-o"></i>
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
@@ -150,10 +150,10 @@
          
          <i class ="fa fa-star-o"></i>
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
@@ -243,10 +243,10 @@
          
          <i class ="fa fa-star-o"></i>
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
@@ -266,10 +266,10 @@
          
          <i class ="fa fa-star-o"></i>
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
@@ -289,7 +289,7 @@
          
          <i class ="fa fa-star-o"></i>
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500f</a>
@@ -312,7 +312,7 @@
          
          <i class ="fa fa-star-o"></i>
          <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500f</a>
@@ -348,10 +348,10 @@
         
         <i class ="fa fa-star-o"></i>
         <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
@@ -371,10 +371,10 @@
         
         <i class ="fa fa-star-o"></i>
         <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
@@ -394,10 +394,10 @@
         
         <i class ="fa fa-star-o"></i>
         <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
@@ -417,10 +417,10 @@
         
         <i class ="fa fa-star-o"></i>
         <div class="listing-item-content">
-         <a href="*./pages/commander.php" class="bookmark" date-toggle="">
+         <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500f</a>
+         <a class="px-3 mb-3 category" href="">4500fcfa</a>
          
             
          </div>
