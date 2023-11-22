@@ -10,13 +10,13 @@ catch(Exception $e)
 
 
 
-//  @$nom=$_POST['nom'];
-//  @$prenom=$_POST['prenom'];
+ 
+ 
  @$email=$_POST['email'];
  @$code=$_POST['code'];
- @$code=$_POST['pays'];
+ @$email=$_POST['pays'];
  @$code=$_POST['ville'];
- @$code=$_POST['adress'];
+ @$email=$_POST['adress'];
  @$code=$_POST['nombre'];
  @$submit=$_POST['submit'];
  @$erreur="";
@@ -28,17 +28,16 @@ if (isset($submit)) {
 
    
     
-    if (empty($email) || empty($code)|| empty($pays) || empty($ville)|| empty($adress)|| empty($nombre)) {
-      
+    if ( empty($email) || empty($code)|| empty($pays)|| empty($ville)|| empty($adress)|| empty($nombre)) {
 
         $erreur="Veuillez remplire tous les champs svp!";
           
     }
     else{
-        $res=$bdd->query(" INSERT INTO inscris( email, code, pays, ville, adrees, nombre) 
-                            VALUES ('$email','$code','$pays','$ville',$adress',$nombre')");
+        $res=$bdd->query(" INSERT INTO commande( email, code, pays, ville, adress, nombre ) 
+                            VALUES ('$email','$code','$pays','$ville''$adress','$nombre')");
         if ($res !== false) {
-            header('location:produit.php');
+            header('location:dashboard.php');
         }else{
             $err="echec d'enregistrement!";
         }
@@ -73,15 +72,13 @@ if (isset($submit)) {
      ?>
 <Section class="header-section">
     <div class="contenaire">
-        <button class="but"><a href="produit.php">commander</a></button>
+        <button class="but"><a href="connexion.php">commander</a></button>
 
-        <h1 class="envoi">PASSER LA COMMANDE</h1>
+        <h1 class="envoi">passer la commander</h1>
         <form action="" method="POST">
-            <!-- <input type="text" name="nom"  placeholder="Entrez votre nom">
-            <input type="text" name="prenom" placeholder="Entrez votre prenom"> -->
-            <input type="email" name="email" placeholder="Entrez votre Email">
+        <input type="email" name="email" placeholder="Entrez votre Email">
             <input type="password" name="code" placeholder="Entrez votre mot de passe">
-            <input type="pays" name="pays" placeholder="Entrez votre pays">
+             <input type="pays" name="pays"  placeholder="Entrez votre pays">
             <input type="ville" name="ville" placeholder="Entrez votre ville">
             <input type="adress" name="adress" placeholder="Entrez votre adress">
             <input type="nombre" name="nombre" placeholder="Entrez votre nombre">
