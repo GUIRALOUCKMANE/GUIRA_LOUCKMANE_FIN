@@ -13,7 +13,7 @@
                   
                 <li> <a href="commander.php">COMMANDER</a></li>               
                 
-                <li> <a href="contact.php" class="verte">CONTACT</a></li>
+                <li> <a href="contacte.php" class="verte">CONTACT</a></li>
                 <!-- <li> <a href="" class="bleue">ACHATER EN LIGNE</a></li> -->
             
          <a href="commander.php" class="bookmark" date-toggle="">
