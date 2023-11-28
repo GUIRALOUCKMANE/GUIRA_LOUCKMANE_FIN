@@ -118,7 +118,7 @@ nav .fa{
  }
 .vere{
   text-align: center;
-  color: blue; 
+   color: blue;  
   font-size: xx-large;
 }
 .sim{
@@ -152,7 +152,7 @@ margin-left: 15px;
 }
 .b{
     text-align: center;
-    color: blue;
+    color: blue; 
     
 }
 .web{
@@ -174,8 +174,8 @@ margin-left: 15px;
     border: 1px solid violet; 
     width: 115px;
 }
-.card-text{
-    font-size: larger;
+ .card-text{
+    font-size: larger; 
     
 }
 .mon{
@@ -256,8 +256,9 @@ margin-left: 15px;
 }
 .zonga{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin: 20px 20px;
+    justify-content: space-between;
 }
 
 
@@ -290,6 +291,10 @@ margin-left: 15px;
     
     margin: auto;
     margin-bottom: 50px;
+}
+.logocal{
+    width: 90px;
+    height: 90px;
 }
 .sodre{
     text-align: center;

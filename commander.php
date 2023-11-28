@@ -17,6 +17,7 @@ catch(Exception $e)
  @$email=$_POST['pays'];
  @$code=$_POST['ville'];
  @$email=$_POST['adress'];
+ @$type=$_POST['type'];
  @$code=$_POST['nombre'];
  @$submit=$_POST['submit'];
  @$erreur="";
@@ -28,14 +29,14 @@ if (isset($submit)) {
 
    
     
-    if ( empty($email) || empty($code)|| empty($pays)|| empty($ville)|| empty($adress)|| empty($nombre)) {
+    if ( empty($email) || empty($code)|| empty($pays)|| empty($ville)|| empty($adress) || empty($type)|| empty($nombre)) {
 
         $erreur="Veuillez remplire tous les champs svp!";
           
     }
     else{
-        $res=$bdd->query(" INSERT INTO commande( email, code, pays, ville, adress, nombre ) 
-                            VALUES ('$email','$code','$pays','$ville''$adress','$nombre')");
+        $res=$bdd->query(" INSERT INTO commande( email, code, pays, ville, adress, type, nombre ) 
+                            VALUES ('$email','$code','$pays','$ville''$adress','$type','$nombre')");
         if ($res !== false) {
             header('location:dashboard.php');
         }else{
@@ -74,13 +75,14 @@ if (isset($submit)) {
     <div class="contenaire">
         <button class="but"><a href="connexion.php">commander</a></button>
 
-        <h1 class="envoi">passer la commander</h1>
+        <h1 class="envoi">passer la commande</h1>
         <form action="" method="POST">
         <input type="email" name="email" placeholder="Entrez votre Email">
             <input type="password" name="code" placeholder="Entrez votre mot de passe">
              <input type="pays" name="pays"  placeholder="Entrez votre pays">
             <input type="ville" name="ville" placeholder="Entrez votre ville">
             <input type="adress" name="adress" placeholder="Entrez votre adress">
+            <input type="type" name="type" placeholder="Entrez votre type">
             <input type="nombre" name="nombre" placeholder="Entrez votre nombre">
             <input type="submit" value="VALIDER" name="submit" class="submit">
 

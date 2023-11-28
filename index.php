@@ -87,10 +87,19 @@
          <a href="commander.php" class="bookmark" date-toggle="">
          <span class="fas fa-cart-arrow-down"></span>
          </a>
-         <a class="px-3 mb-3 category" href="">4500fcfa</a>
+         
+         <a class="px-3 mb-3 category" href="commander.php">4500fcfa</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook./+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          <!-- <h2 class="mb-1"><a href="">lunette-dign</a></h2>
          <span class="adress">burkina</span> -->
          
+         <!-- <img src="wathapp.png" alt="" class="logo"> -->
+         
+         
+         </a>
          
          </div>
          
@@ -112,7 +121,11 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
-         
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
+         </a>
            
            
            </div>
@@ -133,8 +146,12 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
-            
+         </a> 
          </div>
              
              </div>
@@ -154,8 +171,12 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
-            
+         </a> 
          </div>
                
                
@@ -247,7 +268,11 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
-         
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
+         </a>
             
          </div>
     
@@ -270,8 +295,12 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
-            
+         </a>
          </div>
            
            
@@ -293,8 +322,12 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500f</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
-            
+         </a>  
          </div>
              
              
@@ -316,8 +349,12 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500f</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
-            
+         </a>   
          </div>
                
                
@@ -352,8 +389,12 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
-            
+         </a>   
          </div>
         
         
@@ -375,7 +416,11 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
-         
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
+         </a>
             
          </div>
           
@@ -398,8 +443,12 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
-            
+         </a>   
          </div>
             
             
@@ -421,7 +470,11 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
-         
+         <a href="https://wa.me/+22675288667">
+         <a href="https://facebook.me/+22675288667">
+         <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
+         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
+         </a>
             
          </div>
               

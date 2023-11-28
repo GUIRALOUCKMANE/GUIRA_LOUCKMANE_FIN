@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ajouter</title>
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="style5.css">
     
 </head>
 <body>
+<?php
+     include("navabar.php");
+     ?>
+<section class="sty">
  <div class="form">
  <a href="dashboard.php" class="back_btn"> <img src="retour.png">retour</a>
  <h2>modifier votre commande</h2>
@@ -26,6 +31,10 @@
  <input type="submit" value="modifier" name="button">
  </form>
  
- </div>   
+ </div> 
+ </section>
+ <?php
+     include("footer.php");
+     ?>   
 </body>
 </html>
