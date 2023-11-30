@@ -121,10 +121,9 @@
          <span class="fas fa-cart-arrow-down"></span>
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
-         <a href="https://wa.me/+22675288667">
-         <a href="https://facebook.me/+22675288667">
+      <a href="https://wa.me/+22675288667">
          <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
-         <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
+          <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i> 
          </a>
            
            
@@ -444,7 +443,7 @@
          </a>
          <a class="px-3 mb-3 category" href="">4500fcfa</a>
          <a href="https://wa.me/+22675288667">
-         <a href="https://facebook.me/+22675288667">
+         <a href="https://facebook.me/">
          <i class="fa-brands fa-whatsapp" style="color: #82f028;" class="logocal"></i>
          <i class="fa-brands fa-facebook" style="color: #105ce0;" class="logocal"></i>
          
