@@ -71,7 +71,7 @@
         <div class="row">
         
          <div class="col-4">
-          <a href="insérer l'URL de destination ici"><img src="in1.jpg" title="insérer le titre" alt="insérer la description ici"></a>
+          <a href="insérer l'URL de destination ici"><img src="in1.jpg" title="insérer le titre" alt="insérer la description ici" class="respo"></a>
           
          <!-- <img src="in1.jpg" alt="produit 1"> -->
          <h3>verre de hors gamme</h3>

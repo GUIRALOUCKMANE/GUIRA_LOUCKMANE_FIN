@@ -406,6 +406,19 @@ ul{
         flex-direction: column; 
         
     }
+    @media(max-width: 574px){
+        .col-2{
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    @media(max-width: 300px){
+        .respo{
+            flex-direction: column;
+            max-width: 100%;
+            
+        }
+    }
     
   }
 
